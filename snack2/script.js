@@ -1,10 +1,10 @@
-const randomNumber = Math.floor(Math.random() * 5) + 1;
+const randomNumber = Math.floor(Math.random() * 100) + 1;
 
 let userChoice;
 
 do {
 
-    userChoice = Number(prompt("Inserisci un numero da 1 a 5"))
+    userChoice = Number(prompt("Inserisci un numero da 1 a 100"))
 
     if (userChoice > randomNumber) {
         alert("Il numero è troppo alto");
